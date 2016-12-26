@@ -321,5 +321,76 @@
 
 
 
+- (BOOL (^)())si_viewIsZeroSize{
+    return ^(){
+        if(CGRectEqualToRect(self.frame, CGRectZero)){
+            return YES ;
+        }
+        return NO ;
+    };
+}
+
+- (CGFloat (^)())si_viewX{
+    return ^(){
+        return self.frame.origin.x;
+    };
+}
+
+- (CGFloat (^)())si_viewY{
+    return ^(){
+        return self.frame.origin.y;
+    };
+}
+
+- (CGFloat (^)())si_viewCenterX{
+    return ^(){
+        return self.center.x;
+    };
+}
+
+- (CGFloat (^)())si_viewCenterY{
+    return ^(){
+        return self.center.y;
+    };
+}
+
+- (CGSize (^)())si_viewSize{
+    return ^(){
+        return self.frame.size;
+    };
+}
+
+- (CGFloat (^)())si_viewWidth{
+    return ^(){
+        return self.frame.size.width;
+    };
+}
+
+- (CGFloat (^)())si_viewHeight{
+    return ^(){
+        return self.frame.size.height;
+    };
+}
+
+- (CGPoint (^)())si_viewOrigin{
+    return ^(){
+        return self.frame.origin;
+    };
+}
+
+- (CGFloat (^)())si_viewMaxX{
+    return ^(){
+        return CGRectGetMaxX(self.frame);
+    };
+}
+
+- (CGFloat (^)())si_viewMaxY{
+    return ^(){
+        return CGRectGetMaxY(self.frame);
+    };
+}
+
+
+
 
 @end

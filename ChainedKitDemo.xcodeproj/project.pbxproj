@@ -15,6 +15,7 @@
 		E8DF1A061E10E6C800AD432E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DF1A041E10E6C800AD432E /* LaunchScreen.storyboard */; };
 		E8DF1A101E10E75600AD432E /* NSObject+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A0F1E10E75600AD432E /* NSObject+SIChainedKit.m */; };
 		E8DF1A131E10F39400AD432E /* UIView+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A121E10F39400AD432E /* UIView+SIChainedKit.m */; };
+		E8DF1A1F1E1164E000AD432E /* UIControl+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A1E1E1164E000AD432E /* UIControl+SIChainedKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		E8DF1A0F1E10E75600AD432E /* NSObject+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SIChainedKit.m"; sourceTree = "<group>"; };
 		E8DF1A111E10F39400AD432E /* UIView+SIChainedKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SIChainedKit.h"; sourceTree = "<group>"; };
 		E8DF1A121E10F39400AD432E /* UIView+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SIChainedKit.m"; sourceTree = "<group>"; };
+		E8DF1A1D1E1164E000AD432E /* UIControl+SIChainedKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+SIChainedKit.h"; sourceTree = "<group>"; };
+		E8DF1A1E1E1164E000AD432E /* UIControl+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SIChainedKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				E8DF1A0F1E10E75600AD432E /* NSObject+SIChainedKit.m */,
 				E8DF1A111E10F39400AD432E /* UIView+SIChainedKit.h */,
 				E8DF1A121E10F39400AD432E /* UIView+SIChainedKit.m */,
+				E8DF1A1D1E1164E000AD432E /* UIControl+SIChainedKit.h */,
+				E8DF1A1E1E1164E000AD432E /* UIControl+SIChainedKit.m */,
 			);
 			path = ChainedKit;
 			sourceTree = SOURCE_ROOT;
@@ -170,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8DF1A131E10F39400AD432E /* UIView+SIChainedKit.m in Sources */,
+				E8DF1A1F1E1164E000AD432E /* UIControl+SIChainedKit.m in Sources */,
 				E8DF19FE1E10E6C800AD432E /* ViewController.m in Sources */,
 				E8DF1A101E10E75600AD432E /* NSObject+SIChainedKit.m in Sources */,
 				E8DF19FB1E10E6C800AD432E /* AppDelegate.m in Sources */,

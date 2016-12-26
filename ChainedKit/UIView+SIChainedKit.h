@@ -10,6 +10,7 @@
 
 @interface UIView (SIChainedKit)
 
+#pragma mark --- 可以连续点的方法
 @property (nonatomic,strong,readonly) UIView *(^si_setFrame)(CGRect) ;
 @property (nonatomic,strong,readonly) UIView *(^si_setFrameEasy)(CGFloat,CGFloat,CGFloat,CGFloat) ;
 @property (nonatomic,strong,readonly) UIView *(^si_setX)(CGFloat) ;
@@ -55,5 +56,18 @@
 
 @property (nonatomic,strong,readonly) UIView *(^si_addGesture)(UIGestureRecognizer *) ;
 @property (nonatomic,strong,readonly) UIView *(^si_removeGesture)(UIGestureRecognizer *) ;
+
+#pragma mark --- 不可连续点的方法
+@property (nonatomic,copy,readonly) BOOL         (^si_viewIsZeroSize)();
+@property (nonatomic,copy,readonly) CGFloat      (^si_viewX)();
+@property (nonatomic,copy,readonly) CGFloat      (^si_viewY)();
+@property (nonatomic,copy,readonly) CGFloat      (^si_viewMaxX)();
+@property (nonatomic,copy,readonly) CGFloat      (^si_viewMaxY)();
+@property (nonatomic,copy,readonly) CGPoint      (^si_viewOrigin)();
+@property (nonatomic,copy,readonly) CGFloat      (^si_viewCenterX)();
+@property (nonatomic,copy,readonly) CGFloat      (^si_viewCenterY)();
+@property (nonatomic,copy,readonly) CGFloat      (^si_viewWidth)();
+@property (nonatomic,copy,readonly) CGFloat      (^si_viewHeight)();
+@property (nonatomic,copy,readonly) CGSize       (^si_viewSize)();
 
 @end
