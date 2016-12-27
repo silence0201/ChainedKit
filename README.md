@@ -4,16 +4,16 @@
 使用说明
 =======
 ###导入文件
-将项目目录下的`ChainedKit`目录导入项目中
-`NSObject+SIChainedKit`:NSObject方法封装
-`UIButton+SIChainedKit`:UIButton方法封装
-`UIControl+SIChainedKit`:UIControl方法封装
-`UIImageView+SIChainedKit`:UIImageView方法封装
-`UILabel+SIChainedKit`:UILabel方法封装
-`UIScrollView+SIChainedKit`:UIScrollView方法封装
-`UITableView+SIChainedKit`:UITableView方法封装
-`UITextField+SIChainedKit`:UITextField方法封装
-`UITextView+SIChainedKit`:UITextView方法封装
+将项目目录下的`ChainedKit`目录导入项目中  
+`NSObject+SIChainedKit`:NSObject方法封装  
+`UIButton+SIChainedKit`:UIButton方法封装  
+`UIControl+SIChainedKit`:UIControl方法封装  
+`UIImageView+SIChainedKit`:UIImageView方法封装  
+`UILabel+SIChainedKit`:UILabel方法封装  
+`UIScrollView+SIChainedKit`:UIScrollView方法封装  
+`UITableView+SIChainedKit`:UITableView方法封装  
+`UITextField+SIChainedKit`:UITextField方法封装  
+`UITextView+SIChainedKit`:UITextView方法封装  
 
 ###导入头文件
 	#import "SIChainedKit.h"
