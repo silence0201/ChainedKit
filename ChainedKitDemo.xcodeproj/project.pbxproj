@@ -18,6 +18,7 @@
 		E8DF1A1F1E1164E000AD432E /* UIControl+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A1E1E1164E000AD432E /* UIControl+SIChainedKit.m */; };
 		E8DF1A221E1217A900AD432E /* UIButton+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A211E1217A900AD432E /* UIButton+SIChainedKit.m */; };
 		E8DF1A251E121E1700AD432E /* UIImageView+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A241E121E1700AD432E /* UIImageView+SIChainedKit.m */; };
+		E8DF1A2C1E122D8D00AD432E /* UILabel+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A2B1E122D8D00AD432E /* UILabel+SIChainedKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,9 @@
 		E8DF1A211E1217A900AD432E /* UIButton+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SIChainedKit.m"; sourceTree = "<group>"; };
 		E8DF1A231E121E1700AD432E /* UIImageView+SIChainedKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SIChainedKit.h"; sourceTree = "<group>"; };
 		E8DF1A241E121E1700AD432E /* UIImageView+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SIChainedKit.m"; sourceTree = "<group>"; };
+		E8DF1A271E122B5A00AD432E /* SIChainedKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIChainedKit.h; sourceTree = "<group>"; };
+		E8DF1A2A1E122D8D00AD432E /* UILabel+SIChainedKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SIChainedKit.h"; sourceTree = "<group>"; };
+		E8DF1A2B1E122D8D00AD432E /* UILabel+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SIChainedKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		E8DF1A0D1E10E6F500AD432E /* ChainedKit */ = {
 			isa = PBXGroup;
 			children = (
+				E8DF1A271E122B5A00AD432E /* SIChainedKit.h */,
 				E8DF1A0E1E10E75600AD432E /* NSObject+SIChainedKit.h */,
 				E8DF1A0F1E10E75600AD432E /* NSObject+SIChainedKit.m */,
 				E8DF1A111E10F39400AD432E /* UIView+SIChainedKit.h */,
@@ -108,6 +113,8 @@
 				E8DF1A211E1217A900AD432E /* UIButton+SIChainedKit.m */,
 				E8DF1A231E121E1700AD432E /* UIImageView+SIChainedKit.h */,
 				E8DF1A241E121E1700AD432E /* UIImageView+SIChainedKit.m */,
+				E8DF1A2A1E122D8D00AD432E /* UILabel+SIChainedKit.h */,
+				E8DF1A2B1E122D8D00AD432E /* UILabel+SIChainedKit.m */,
 			);
 			path = ChainedKit;
 			sourceTree = SOURCE_ROOT;
@@ -188,6 +195,7 @@
 				E8DF1A1F1E1164E000AD432E /* UIControl+SIChainedKit.m in Sources */,
 				E8DF1A221E1217A900AD432E /* UIButton+SIChainedKit.m in Sources */,
 				E8DF19FE1E10E6C800AD432E /* ViewController.m in Sources */,
+				E8DF1A2C1E122D8D00AD432E /* UILabel+SIChainedKit.m in Sources */,
 				E8DF1A251E121E1700AD432E /* UIImageView+SIChainedKit.m in Sources */,
 				E8DF1A101E10E75600AD432E /* NSObject+SIChainedKit.m in Sources */,
 				E8DF19FB1E10E6C800AD432E /* AppDelegate.m in Sources */,
