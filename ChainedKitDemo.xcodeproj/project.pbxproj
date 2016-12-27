@@ -17,6 +17,7 @@
 		E8DF1A131E10F39400AD432E /* UIView+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A121E10F39400AD432E /* UIView+SIChainedKit.m */; };
 		E8DF1A1F1E1164E000AD432E /* UIControl+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A1E1E1164E000AD432E /* UIControl+SIChainedKit.m */; };
 		E8DF1A221E1217A900AD432E /* UIButton+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A211E1217A900AD432E /* UIButton+SIChainedKit.m */; };
+		E8DF1A251E121E1700AD432E /* UIImageView+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A241E121E1700AD432E /* UIImageView+SIChainedKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		E8DF1A1E1E1164E000AD432E /* UIControl+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SIChainedKit.m"; sourceTree = "<group>"; };
 		E8DF1A201E1217A900AD432E /* UIButton+SIChainedKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SIChainedKit.h"; sourceTree = "<group>"; };
 		E8DF1A211E1217A900AD432E /* UIButton+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SIChainedKit.m"; sourceTree = "<group>"; };
+		E8DF1A231E121E1700AD432E /* UIImageView+SIChainedKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SIChainedKit.h"; sourceTree = "<group>"; };
+		E8DF1A241E121E1700AD432E /* UIImageView+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SIChainedKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				E8DF1A1E1E1164E000AD432E /* UIControl+SIChainedKit.m */,
 				E8DF1A201E1217A900AD432E /* UIButton+SIChainedKit.h */,
 				E8DF1A211E1217A900AD432E /* UIButton+SIChainedKit.m */,
+				E8DF1A231E121E1700AD432E /* UIImageView+SIChainedKit.h */,
+				E8DF1A241E121E1700AD432E /* UIImageView+SIChainedKit.m */,
 			);
 			path = ChainedKit;
 			sourceTree = SOURCE_ROOT;
@@ -183,6 +188,7 @@
 				E8DF1A1F1E1164E000AD432E /* UIControl+SIChainedKit.m in Sources */,
 				E8DF1A221E1217A900AD432E /* UIButton+SIChainedKit.m in Sources */,
 				E8DF19FE1E10E6C800AD432E /* ViewController.m in Sources */,
+				E8DF1A251E121E1700AD432E /* UIImageView+SIChainedKit.m in Sources */,
 				E8DF1A101E10E75600AD432E /* NSObject+SIChainedKit.m in Sources */,
 				E8DF19FB1E10E6C800AD432E /* AppDelegate.m in Sources */,
 				E8DF19F81E10E6C800AD432E /* main.m in Sources */,
