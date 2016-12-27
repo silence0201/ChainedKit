@@ -390,6 +390,12 @@
     };
 }
 
+- (CGRect (^)())si_viewFrame{
+    return ^(){
+        return self.frame ;
+    } ;
+}
+
 
 
 

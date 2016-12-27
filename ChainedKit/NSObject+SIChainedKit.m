@@ -16,28 +16,28 @@
     return obj ;
 }
 
-- (id (^)(SEL, id, BOOL))si_performSelOnMain{
+- (NSObject * (^)(SEL, id, BOOL))si_performSelOnMain{
     return ^(SEL selector,id obj,BOOL untiDone){
         [self performSelectorOnMainThread:selector withObject:obj waitUntilDone:untiDone] ;
         return self ;
     } ;
 }
 
-- (id (^)(SEL, NSThread *, id, BOOL))si_performSelOnThread{
+- (NSObject * (^)(SEL, NSThread *, id, BOOL))si_performSelOnThread{
     return ^(SEL selector,NSThread *thread,id obj,BOOL untiDone){
         [self performSelector:selector onThread:thread withObject:obj waitUntilDone:untiDone] ;
         return self ;
     } ;
 }
 
-- (id (^)(SEL, id))si_performSelOnBackground{
+- (NSObject * (^)(SEL, id))si_performSelOnBackground{
     return ^(SEL selector,id obj){
         [self performSelectorInBackground:selector withObject:obj] ;
         return self ;
     } ;
 }
 
-- (id (^)(SEL, id, NSTimeInterval))si_performSelWithDelay{
+- (NSObject * (^)(SEL, id, NSTimeInterval))si_performSelWithDelay{
     return ^(SEL selector,id obj,NSTimeInterval delay){
         [self performSelector:selector withObject:obj afterDelay:delay] ;
         return self ;
@@ -74,21 +74,21 @@
     } ;
 }
 
-- (id (^)(id, NSString *))si_setValueForKey{
+- (NSObject * (^)(id, NSString *))si_setValueForKey{
     return ^(id obj,NSString *key){
         [self setValue:obj forKey:key] ;
         return self ;
     } ;
 }
 
-- (id (^)(id, NSString *))si_setValueForKeyPath{
+- (NSObject * (^)(id, NSString *))si_setValueForKeyPath{
     return ^(id obj,NSString *keyPath){
         [self setValue:obj forKeyPath:keyPath] ;
         return self ;
     } ;
 }
 
-- (id (^)(NSDictionary *))si_setValueForKeysWithDic{
+- (NSObject * (^)(NSDictionary *))si_setValueForKeysWithDic{
     return ^(NSDictionary *dic){
         [self setValuesForKeysWithDictionary:dic] ;
         return self ;

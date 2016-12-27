@@ -23,6 +23,7 @@
 		E8DF1A321E12438D00AD432E /* UITextView+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A311E12438D00AD432E /* UITextView+SIChainedKit.m */; };
 		E8DF1A351E12486100AD432E /* UIScrollView+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A341E12486100AD432E /* UIScrollView+SIChainedKit.m */; };
 		E8DF1A381E124B5F00AD432E /* UITableView+SIChainedKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A371E124B5F00AD432E /* UITableView+SIChainedKit.m */; };
+		E8DF1A3B1E124E7700AD432E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1A3A1E124E7700AD432E /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		E8DF1A341E12486100AD432E /* UIScrollView+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SIChainedKit.m"; sourceTree = "<group>"; };
 		E8DF1A361E124B5F00AD432E /* UITableView+SIChainedKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SIChainedKit.h"; sourceTree = "<group>"; };
 		E8DF1A371E124B5F00AD432E /* UITableView+SIChainedKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SIChainedKit.m"; sourceTree = "<group>"; };
+		E8DF1A391E124E7700AD432E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E8DF1A3A1E124E7700AD432E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				E8DF19FA1E10E6C800AD432E /* AppDelegate.m */,
 				E8DF19FC1E10E6C800AD432E /* ViewController.h */,
 				E8DF19FD1E10E6C800AD432E /* ViewController.m */,
+				E8DF1A391E124E7700AD432E /* Person.h */,
+				E8DF1A3A1E124E7700AD432E /* Person.m */,
 				E8DF19FF1E10E6C800AD432E /* Main.storyboard */,
 				E8DF1A021E10E6C800AD432E /* Assets.xcassets */,
 				E8DF1A041E10E6C800AD432E /* LaunchScreen.storyboard */,
@@ -213,6 +218,7 @@
 			files = (
 				E8DF1A321E12438D00AD432E /* UITextView+SIChainedKit.m in Sources */,
 				E8DF1A131E10F39400AD432E /* UIView+SIChainedKit.m in Sources */,
+				E8DF1A3B1E124E7700AD432E /* Person.m in Sources */,
 				E8DF1A1F1E1164E000AD432E /* UIControl+SIChainedKit.m in Sources */,
 				E8DF1A221E1217A900AD432E /* UIButton+SIChainedKit.m in Sources */,
 				E8DF19FE1E10E6C800AD432E /* ViewController.m in Sources */,

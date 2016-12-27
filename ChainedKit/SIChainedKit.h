@@ -15,6 +15,9 @@
 #import "UIButton+SIChainedKit.h"
 #import "UIImageView+SIChainedKit.h"
 #import "UILabel+SIChainedKit.h"
-#import "UITextField+SIChainedKit"
+#import "UITextField+SIChainedKit.h"
+#import "UITextView+SIChainedKit.h"
+#import "UIScrollView+SIChainedKit.h"
+#import "UITableView+SIChainedKit.h"
 
 #endif

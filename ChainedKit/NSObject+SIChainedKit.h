@@ -14,14 +14,14 @@
 + (instancetype)si_make:(void(^)(id obj))block ;
 
 #pragma mark ---- 可以连续点执行的方法
-@property (nonatomic,strong,readonly) id(^si_performSelOnMain)(SEL,id,BOOL) ;
-@property (nonatomic,strong,readonly) id(^si_performSelOnThread)(SEL,NSThread *,id,BOOL) ;
-@property (nonatomic,strong,readonly) id(^si_performSelOnBackground)(SEL,id) ;
-@property (nonatomic,strong,readonly) id(^si_performSelWithDelay)(SEL,id,NSTimeInterval) ;
+@property (nonatomic,strong,readonly) NSObject *(^si_performSelOnMain)(SEL,id,BOOL) ;
+@property (nonatomic,strong,readonly) NSObject *(^si_performSelOnThread)(SEL,NSThread *,id,BOOL) ;
+@property (nonatomic,strong,readonly) NSObject *(^si_performSelOnBackground)(SEL,id) ;
+@property (nonatomic,strong,readonly) NSObject *(^si_performSelWithDelay)(SEL,id,NSTimeInterval) ;
 
-@property (nonatomic,strong,readonly) id(^si_setValueForKey)(id,NSString *) ;
-@property (nonatomic,strong,readonly) id(^si_setValueForKeyPath)(id,NSString *) ;
-@property (nonatomic,strong,readonly) id(^si_setValueForKeysWithDic)(NSDictionary *) ;
+@property (nonatomic,strong,readonly) NSObject *(^si_setValueForKey)(id,NSString *) ;
+@property (nonatomic,strong,readonly) NSObject *(^si_setValueForKeyPath)(id,NSString *) ;
+@property (nonatomic,strong,readonly) NSObject *(^si_setValueForKeysWithDic)(NSDictionary *) ;
 
 #pragma mark ---- 不可以连续点执行的方法
 @property (nonatomic,strong,readonly) BOOL (^si_isEqual)(id) ;

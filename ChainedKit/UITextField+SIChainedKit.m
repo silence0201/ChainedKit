@@ -38,6 +38,14 @@
     };
 }
 
+- (UITextField *(^)(CGFloat))si_setFontSize {
+    return ^(CGFloat size){
+        self.font = [UIFont systemFontOfSize:size];
+        return self;
+    };
+}
+
+
 
 - (UITextField *(^)(NSTextAlignment))si_setTextAlignment{
     return ^(NSTextAlignment alignment){

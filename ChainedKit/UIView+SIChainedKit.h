@@ -69,5 +69,6 @@
 @property (nonatomic,copy,readonly) CGFloat      (^si_viewWidth)();
 @property (nonatomic,copy,readonly) CGFloat      (^si_viewHeight)();
 @property (nonatomic,copy,readonly) CGSize       (^si_viewSize)();
+@property (nonatomic,copy,readonly) CGRect       (^si_viewFrame)();
 
 @end

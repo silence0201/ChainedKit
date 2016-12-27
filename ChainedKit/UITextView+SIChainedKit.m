@@ -38,8 +38,8 @@
     };
 }
 
-- (UITextView *(^)(NSInteger))si_setFontSize{
-    return ^(NSInteger size){
+- (UITextView *(^)(CGFloat))si_setFontSize{
+    return ^(CGFloat size){
         self.font = [UIFont systemFontOfSize:size];
         return self;
     };

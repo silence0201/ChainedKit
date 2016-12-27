@@ -15,6 +15,7 @@
 @property (nonatomic,strong,readonly) UITextField *(^si_setTextColor)(UIColor *) ;
 
 @property (nonatomic,strong,readonly) UITextField *(^si_setFont)(UIFont *) ;
+@property (nonatomic,strong,readonly) UITextField *(^si_setFontSize)(CGFloat);
 
 @property (nonatomic,strong,readonly) UITextField *(^si_setTextAlignment)(NSTextAlignment) ;
 @property (nonatomic,strong,readonly) UITextField *(^si_setBorderStyle)(UITextBorderStyle) ;
