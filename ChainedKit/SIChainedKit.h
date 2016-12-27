@@ -14,5 +14,7 @@
 #import "UIControl+SIChainedKit.h"
 #import "UIButton+SIChainedKit.h"
 #import "UIImageView+SIChainedKit.h"
+#import "UILabel+SIChainedKit.h"
+#import "UITextField+SIChainedKit"
 
 #endif
