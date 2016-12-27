@@ -33,8 +33,6 @@
 @property (nonatomic, strong, readonly) UIScrollView *(^si_setBounceZoom)(BOOL);
 @property (nonatomic, strong, readonly) UIScrollView *(^si_setScrollToTop)(BOOL);
 
-
-
 @property (nonatomic, strong, readonly) UIScrollView *(^si_setSetContentOffsetAnimated)(CGPoint, BOOL);
 @property (nonatomic, strong, readonly) UIScrollView *(^si_setScrollRectToVisibleAnimated)(CGRect, BOOL);
 @property (nonatomic, strong, readonly) UIScrollView *(^si_setSetZoomScaleAnimated)(CGFloat, BOOL);
