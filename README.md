@@ -15,6 +15,10 @@
 `UITextField+SIChainedKit`:UITextField方法封装  
 `UITextView+SIChainedKit`:UITextView方法封装  
 
+Pod安装
+
+	pod 'ChainedKit', '~> 1.0'
+
 ###导入头文件
 	#import "SIChainedKit.h"
 	
